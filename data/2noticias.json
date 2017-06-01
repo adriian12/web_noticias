@@ -1,0 +1,45 @@
+[{
+       "id": "noticias",
+       "img": "img/camellos.jpg",
+       "titulo": "",
+       "titulo2": "",
+       "fecha": "22/03/2017 11:29",
+       "texto": "",
+       "texto2": "",
+       "collapse": "collapse",
+       "url": "#"
+   },
+   {
+       "id": "noticias",
+       "img": "img/centro_comercial.jpg",
+       "titulo": "",
+       "titulo2": "",
+       "fecha": "14/03/2017 18:48",
+       "texto": "",
+       "texto2": "",
+       "collapse": "collapse",
+       "url": "#"
+   },
+   {
+       "id": "noticias",
+       "img": "img/hotel.jpg",
+       "titulo": "",
+       "titulo2": "",
+       "fecha": "10/03/2017 23:59",
+       "texto": "",
+       "texto2": "",
+       "collapse": "collapse",
+       "url": "#"
+   },
+      {
+       "id": "noticias",
+       "img": "img/viaje.jpg",
+       "titulo": "",
+       "titulo2": "",
+       "fecha": "05/03/2017 16:00",
+       "texto": "",
+       "texto2": "",
+       "collapse": "collapse",
+       "url": "#"
+   }
+]
