@@ -128,4 +128,4 @@ function openTab(tabName, elmnt, color) {
     document.getElementById(tabName).style.display = "block";
     elmnt.style.backgroundColor = color;
 }
-document.getElementById("active").click();
+document.getElementById(active).click();
