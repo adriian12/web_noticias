@@ -1,34 +1,31 @@
 [{
-       "id": "noticias",
-       "img": "img/excursion.jpg",
+       "img": "<img class="img-fluid img-responsive imagen" src="img/noticias/img/excursion.jpg" alt="imagen noticia">",
        "titulo": "Excusiones a McDonald's para aprender.",
        "titulo2": "¿Por qué la escuela pública está organizando excursiones a McDonald's?",
        "fecha": "20/05/2017 15:44",
        "texto": "Esta semana, una escuela de Córdoba revisaba las actividades extra escolares dentro del consejo escolar. Hablamos de un centro educativo cualquiera: su nombre no importa porque afecta a todas las escuelas de enseñanza pública del territorio español.",
+       "id": "texto04",
        "texto2": "La reunión seguía sus cauces habituales hasta que algo rompió el protocolo: una visita a un restaurante McDonald’s como actividad extra escolar. No se iba primero a un museo y luego se pasaba por ahí. La salida escolar era única y exclusivamente una visita al McDonald's.",
-       "collapse": "collapse",
-       "url": "#"
+       "mas": "Leer más"
    },
    {
-       "id": "noticias",
-       "img": "img/nadar.jpg",
+       "img": "<img class="img-fluid img-responsive imagen" src="img/noticias/img/nadar.jpg" alt="imagen noticia">",
        "titulo": "Nadar: es con coraje y corazón.",
        "titulo2": "Una nadadora con una sola pierna consigue clasificarse para las olimpiadas de Pekín ",
        "fecha": "09/04/2017 21:01",
        "texto": "Natalie Du Toit, nadadora sudafricana de 24 años que sufrió la amputación de la pierna izquierda tras un accidente de moto en 2001, consiguió la plaza olímpica para los Juegos de Pekín al clasificarse cuarta en la prueba de 10 kilómetros de los campeonatos del mundo de aguas abiertas.Todo un ejemplo de empeño y superación.",
+       "id": "texto05",
        "texto2": "	Natalie Du Toit, nadadora sudafricana de 24 años que sufrió la amputación de la pierna izquierda tras un accidente de moto en 2001, consiguió la plaza olímpica para los Juegos de Pekín al clasificarse cuarta en la prueba de 10 kilómetros de los campeonatos del mundo de aguas abiertas",
-       "collapse": "collapse",
-       "url": "#"
+       "mas": "Leer más"
    },
    {
-       "id": "noticias",
-       "img": "img/desayuno.jpg",
+       "img": "<img class="img-fluid img-responsive imagen" src="img/noticias/img/desayuno.jpg" alt="imagen noticia">",
        "titulo": "Corrupción al amanecer.",
        "titulo2": "Sergio Martín da por cierto en 'Los desayunos' un bulo sobre el PSOE ",
        "fecha": "01/04/2017 09:00",
        "texto": "El periodista trató como veraz la falsa noticia sobre la baja del partido de Rodríguez Ibarra. Incluso preguntó por ello a Adriana Lastra, que no se creyó sus palabras.",
+       "id": "texto06",
        "texto2": "Internet ha jugado una mala pasada esta mañana a Sergio Martín. El presentador de 'Los Desayunos' en TVE ha caído en la trampa y ha dado por cierta una falsa noticia sobre el PSOE que circulaba por la red.",
-       "collapse": "collapse",
-       "url": "#"
+       "mas": "Leer más"
    }
 ]

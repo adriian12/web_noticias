@@ -1,5 +1,5 @@
 body{
-    background: url("../img/fondo2.jpg");
+    background: url("../img/backgrounds/body_background.png");
 }
 
 .container-fluid{
@@ -10,7 +10,6 @@ body{
 .container-fluid img{
     text-align: center;
 }
-
 .logo{
     width: 400px;
     height: 150px;
@@ -56,37 +55,36 @@ body{
 #otros {background-color:orange;}
 
 /*-------------NOTICIAS------------------*/
-
 section{
     margin-top: 25px;
+    margin-left: -14px;
 }
-
 .publicidad{
     width: 300px;
     height: auto;
     float: right;
     background-color: #fff; 
+    margin-top: 25px;
 }
-
 .publicidad img{
     width: 300px;
     height: 300px;
     margin-left: -15px;
 }
-
-section .col-lg-9{
-    width: 76%;
+.publicidad-bottom{
+    position: absolute;
+    height: 100px;
+    display: none;
 }
-
-section .col-lg-5{
-    width: 38%;
+.cont{
+        position: relative;
+        margin-right: 325px;
 }
-
 .noticias img{
     width: 100%;
     height: 400px;
 }
-.noticias h1{
+.noticias h2{
     text-decoration: none;
     color: #fff;
     font-style: bold;
@@ -95,28 +93,24 @@ section .col-lg-5{
     position: relative;
     z-index: 1;
 }
-
-.card-title.peq{
-    margin-top: -85px;
-}
-
 .noticias .datetime{
 	color: #6E6E6E;
 	text-align: right;
 	margin-top: -30px;
 	padding-right: 10px;
 	font-size: 16px;
-	font-style: italic;
+    position: absolute;
+    top: 30px;
+    right: 15px;
+    background-color: white;
 }
-
 .datetime, .glyphicon{
 	color: #B40431;
+    padding: 3px;
 }
-
 .noticias a:hover{
     text-decoration: none;
 }
-
 .card {
     display: block;
     margin-bottom: 20px;
@@ -133,9 +127,6 @@ section .col-lg-5{
   padding:15px;
   text-align:left;
 }
-.card-title {
-    margin-top: -20px
-}
 .card-read-more {
   border-top: 1px solid #D4D4D4;
 }
@@ -145,31 +136,65 @@ section .col-lg-5{
   font-weight:600;
   text-transform: uppercase
 }
-
 img.imagen:hover{
-filter: grayscale(100%);
--webkit-filter: grayscale(100%);
--moz-filter: grayscale(100%);
--ms-filter: grayscale(100%);
--o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
 }
 
 /*-----FOOTER----*/
 
-footer { background: url("../img/backgrounds/fondo_intro.jpg"); min-height:350px; font-family: 'Open Sans', sans-serif; }
-
- 
- .copyright { min-height:40px; background-color:#000000;}
- .copyright p { text-align:left; color:#FFF; padding:10px 0; margin-bottom:0px;}
- .heading7 { font-size:21px; font-weight:700; color:#d9d6d6; margin-bottom:22px;}
- .post p { font-size:12px; color:#FFF; line-height:20px;}
- .post p span { display:block; color:#8f8f8f;}
- .bottom_ul { list-style-type:none; float:right; margin-bottom:0px;}
- .bottom_ul li { float:left; line-height:40px;}
- .bottom_ul li:after { content:"/"; color:#FFF; margin-right:8px; margin-left:8px;}
- .bottom_ul li a { color:#FFF;  font-size:12px;}
-
-
+footer { 
+    background: url("../img/backgrounds/fondo_intro.jpg"); 
+min-height:350px; 
+font-family: 'Open Sans', sans-serif; 
+}
+.copyright { 
+    min-height:40px;
+    background-color:#000000;
+}
+.copyright p { 
+    text-align:left; 
+    color:#FFF; 
+    padding:10px 0; 
+    margin-bottom:0px;
+}
+.heading7 { 
+    font-size:21px; 
+    font-weight:700; 
+    color:#d9d6d6; 
+    margin-bottom:22px;
+}
+.post p { 
+    font-size:12px; 
+    color:#FFF; 
+    line-height:20px;
+}
+.post p span { 
+    display:block; 
+    color:#8f8f8f;
+}
+.bottom_ul { 
+    list-style-type:none; 
+    float:right; 
+    margin-bottom:0px;
+}
+.bottom_ul li { 
+    float:left; 
+    line-height:40px;
+}
+.bottom_ul li:after { 
+    content:"/"; 
+    color:#FFF; 
+    margin-right:8px; 
+    margin-left:8px;
+}
+.bottom_ul li a { 
+    color:#FFF;  
+    font-size:12px;
+}
 .go-top img{
     position: fixed;
     bottom: 2em;
@@ -177,7 +202,45 @@ footer { background: url("../img/backgrounds/fondo_intro.jpg"); min-height:350px
     padding: 1em;
     opacity: 0.7;
 }
-
 .go-top img:hover{
     opacity: 0.9;
 }
+/*-----------------MEDIA QUERIES---------------*/
+
+@media (max-width: 768px){
+    .noticias h2{
+    text-decoration: none;
+    color: #fff;
+    font-style: bold;
+    margin-left: 15px;
+    margin-top: -50px;
+    position: relative;
+    z-index: 1;
+    }
+}
+
+@media (max-width: 768px){
+    .publicidad{
+        display: none;
+    }
+    .cont{
+        margin-right: 0;
+    }
+}
+@media (min-width: 768px){
+    .publicidad{
+        display: block;
+    }.cont{
+        margin-right: 325px;
+    }
+    .noticias h2{
+        text-decoration: none;
+        color: #fff;
+        font-style: bold;
+        margin-left: 15px;
+        margin-top: -50px;
+        position: relative;
+        z-index: 1;
+    }
+}
+

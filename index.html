@@ -1,13 +1,15 @@
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
     <title>Mallorca News</title>
+    <meta charset="UTF-8">
+    <meta propiedad="og: url" contenido="http://www.mipagina.com" />
+    <meta propiedad="og: tipo" contenido="News with scroll" />
+    <meta propiedad="og: título de" contenido="Mallorca News" />
+    <meta propiedad="og: Descripción" contenido="Proyecto Final" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="js/node.js"></script>
+   
 </head>
     <body>
         <header>
@@ -35,40 +37,38 @@
                 <a class="tablink" onclick="openTab('inicio', this, ' #f9f4a6')" id="active">Inicio</a>
                 <a class="tablink" onclick="openTab('deportes', this, 'green')">Deportes</a>
                 <a class="tablink" onclick="openTab('politica', this, 'blue')">Política</a>
-                <a class="tablink" onclick="openTab('otros', this, 'orange')">Otros</a> 
+                <a id="target" class="tablink" onclick="openTab('otros', this, 'orange')">Otros</a> 
             </div>
         </header>
-        <div class="container-fluid">
+        <div class="text-center publicidad">
+            <a href="http://www.mcdonalds.es/?gclid=CMaPiubi8tMCFZMYGwodJA4Aqg" target="_blank"><img src="img/anuncios/mcdonalds.jpeg"></a>
+            <a href="https://www.ingdirect.es/prestamos-personales/simulador.html" target="_blank"><img src="img/anuncios/ing.gif"></a>
+            <a href="https://www.marcaapuestas.es/?id=Default&amp;gclid=CPiwqMfj8tMCFcgYGwodOPEKcg&amp;glsrc=aw.ds" target="_blank"><img src="img/anuncios/marca.jpeg"></a>
+            <a href="http://www.kia.com/es/kia/quiero-un-kia/promociones/" target="_blank"><img src="img/anuncios/kia.gif"></a>
+        </div>
+        <div class="publicidadMovil fixed-bottom hidden-md-up hidden-lg-up">
+        </div>
+        <div class="container-fluid cont">
             <section>
-                <div class="col-lg-1 col-md-1 hidden-sm hidden-xs text-center publicidad">
-                    <a href="http://www.mcdonalds.es/?gclid=CMaPiubi8tMCFZMYGwodJA4Aqg" target="_blank"><img src="img/anuncios/mcdonalds.jpeg"></a>
-                    <a href="https://www.ingdirect.es/prestamos-personales/simulador.html" target="_blank"><img src="img/anuncios/ing.gif"></a>
-                    <a href="https://www.marcaapuestas.es/?id=Default&amp;gclid=CPiwqMfj8tMCFcgYGwodOPEKcg&amp;glsrc=aw.ds" target="_blank"><img src="img/anuncios/marca.jpeg"></a>
-                    <a href="http://www.kia.com/es/kia/quiero-un-kia/promociones/" target="_blank"><img src="img/anuncios/kia.gif"></a>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-9 col-lg-9 noticias">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 noticias">
                     <div class="card">
                         <a href="#">
                             <img class="img-fluid img-responsive imagen" src="img/noticias/hipster.jpg" alt="imagen noticia">
-                            <h1 class="card-title">Las empresas más grandes del mundo.</h1>
+                            <h2>Top empresas más grandes.</h2>
                         </a>
-                        <br>
-                        <div class="card-content titulo">
-                                <h3 class="card-title">
-                                    Otro año más recopilamos el listado.
-                                </h3>
-                            <div class="datetime">
-                                <span class="glyphicon glyphicon-calendar"></span><span>01/06/2017 19:43</span>
-                            </div>
-                            <br>
-                            <div class="">
-                                <p> Con un valor de 686 mil millones de euros y con clientes en casi cualquier rincón del planeta, 
-                                    Apple, mantiene el liderato y sigue siendo la empresa más grande del mundo un año más. Muy de 
-                                    cerca le sigue Alphabet, cuya principal subsidiaria es Google con 544 mil millones de euros. 
-                                    En tercer lugar se sitúa otro gigante tecnológico, Microsoft. Así las tres primeras posiciones 
-                                    se mantienen respecto el año 2016.
-                                </p>
-                            </div>
+                        <div class="datetime">
+                            <span class="glyphicon glyphicon-calendar"></span><span>01/06/2017 19:43</span>
+                        </div>
+                        <div class="card-content">
+                            <h3>
+                                Otro año más recopilamos el listado.
+                            </h3>
+                            <p> Con un valor de 686 mil millones de euros y con clientes en casi cualquier rincón del planeta, 
+                                Apple, mantiene el liderato y sigue siendo la empresa más grande del mundo un año más. Muy de 
+                                cerca le sigue Alphabet, cuya principal subsidiaria es Google con 544 mil millones de euros. 
+                                En tercer lugar se sitúa otro gigante tecnológico, Microsoft. Así las tres primeras posiciones 
+                                se mantienen respecto el año 2016.
+                            </p>
                             <div id="texto01" class="collapse">
                                 <p> Por países, el dominio de Estados Unidos sigue siendo aplastante, con 53 empresas incluidas dentro 
                                     de las 100 empresas más grandes del mundo, prácticamente la mitad de ellas tienen su origen en los 
@@ -84,24 +84,22 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-9 col-lg-5 noticias">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 noticias">
                     <div class="card">
                             <a href="#">
                                 <img class="img-fluid img-responsive imagen" src="img/noticias/avion.jpg" alt="imagen noticia">
-                                <h1 class="card-title peq">Pillan al piloto durmiendo en pleno vuelo.</h1>
+                                <h2>Piloto se duerme en vuelo.</h2>
                             </a>
-                                <br>
-                        <div class="card-content">
-                                <h3 class="card-title ">
-                                    El vuelo transportaba 300 pasajeros de Islamabad a Londres.
-                                </h3>    
                             <div class="datetime">
                                 <span class="glyphicon glyphicon-calendar"></span><span>30/05/2017 12:05</span>
                             </div>
-                            <br>
-                                <p> En pleno vuelo uno de los pasajeros hizo una foto al piloto durmiendo en primera clase, cuando normalmente tendría que estar en la cabina. 
-                                    El avión con 300 pasajeros salió de Pakistán con dirección a Londres. El pasajero se quejó a una de las azafatas, seguidamente hizo la foto y la subió a Internet.
-                                </p>
+                        <div class="card-content">
+                            <h3>
+                                El vuelo transportaba 300 pasajeros de Islamabad.
+                            </h3>
+                            <p> En pleno vuelo uno de los pasajeros hizo una foto al piloto durmiendo en primera clase, cuando normalmente tendría que estar en la cabina. 
+                                El avión con 300 pasajeros salió de Pakistán con dirección a Londres. El pasajero se quejó a una de las azafatas, seguidamente hizo la foto y la subió a Internet.
+                            </p>
                             <div id="texto02" class="collapse">
                                 <p> El piloto comercial Amir Akhtar Hashmi ha sido despedido después de que se descubriese que había dormido una siesta durante todo un vuelo en el que él era el comandante.
                                     Amir había dejado a su aprendiz al mando de los controles de una aeronave que transportaba a más de 300 pasajeros.<br>
@@ -115,24 +113,22 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-9 col-lg-5 noticias">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 noticias">
                     <div class="card">
                         <a href="#">
                             <img class="img-fluid img-responsive imagen" src="img/noticias/boda.jpg" alt="imagen noticia">
-                            <h1 class="card-title peq">La SGAE podrá cobrar en bodas.</h1>
+                            <h2>La SGAE cobrará en bodas.</h2>
                         </a>
-                        <br>
-                        <div class="card-content titulo">
-                                <h3 class="card-title">
-                                    Un juez autoriza a la SGAE a cobrar en bodas.
-                                </h3>
-                            <div class="datetime">
-                                <span class="glyphicon glyphicon-calendar"></span><span>26/05/2017 05:55</span>
-                            </div>
-                            <br>
-                                <p> El juzgado nº 1 de Alicante ha autorizado a la SGAE (Sociedad General de Autores y Editores) a cobrar música por los todos banquetes de las bodas. 
-                                    El magistrado considera que las bodas que se celebran en un salón de banquetes que no representan un acto muy estrictamente privado. 
-                                </p>
+                        <div class="datetime">
+                            <span class="glyphicon glyphicon-calendar"></span><span>26/05/2017 05:55</span>
+                        </div>
+                        <div class="card-content">
+                            <h3>
+                                Un juez autoriza a la SGAE a cobrar en bodas.
+                            </h3>
+                            <p> El juzgado nº 1 de Alicante ha autorizado a la SGAE (Sociedad General de Autores y Editores) a cobrar música por los todos banquetes de las bodas. 
+                                El magistrado considera que las bodas que se celebran en un salón de banquetes que no representan un acto muy estrictamente privado. 
+                            </p>
                             <div id="texto03" class="collapse">
                                 <p> Fuentes del Palacio de Justicia explicaron que la SGAE ha comenzado a pedir una media de 600 euros por banquete. 
                                     La autorización del juez es aplicable a los convites de bautizos y comuniones.
@@ -145,10 +141,13 @@
                                 Leer más
                             </a>
                         </div>
-                    </div>
+                     </div>
+                     <div class="cargarNoticias">
+                            
+                     </div>
                 </div>
             </section>
-        </div>
+        </div>            
         <footer>
             <div class="container">
                 <div class="row">
@@ -173,10 +172,24 @@
                 </div>
             </div>
         </div>
-        <a class="go-top" href="#" style="">
+        <a class="go-top" href="#">
             <img src="img/backgrounds/arriba.png" alt="Ir arriba">
-            
         </a>
-
+        <script>
+           function openTab(tabName, elmnt, color) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "";
+    }
+    document.getElementById(tabName).style.display = "block";
+    elmnt.style.backgroundColor = color;
+}
+document.getElementById("active").click();
+        </script>
     </body>
 </html>
