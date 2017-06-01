@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>Mallorca News</title>
+        <link>https://rawgit.com/adriian12/web_noticias/master/index.html</link>
+        <description>Las mejores notícias de Mallorca y del mundo, en una sola web!</description>
+        <item>
+            <title>Top empresas más grandes.</title>
+            <link>https://rawgit.com/adriian12/web_noticias/master/news1.html</link>
+            <description>
+                Con un valor de 686 mil millones de euros y con clientes en casi cualquier rincón del planeta, 
+                Apple, mantiene el liderato y sigue siendo la empresa más grande del mundo un año más. Muy de 
+                cerca le sigue Alphabet, cuya principal subsidiaria es Google con 544 mil millones de euros. 
+                En tercer lugar se sitúa otro gigante tecnológico, Microsoft. Así las tres primeras posiciones 
+                se mantienen respecto el año 2016. 
+            </description>
+        </item>
+        <item>
+            <title>El vuelo transportaba 300 pasajeros de Islamabad.</title>
+            <link>https://rawgit.com/adriian12/web_noticias/master/news2.html</link>
+            <description>
+                En pleno vuelo uno de los pasajeros hizo una foto al piloto durmiendo en primera clase, cuando normalmente tendría que estar en la cabina. 
+                El avión con 300 pasajeros salió de Pakistán con dirección a Londres. El pasajero se quejó a una de las azafatas, seguidamente hizo la foto y la subió a Internet.
+        </item>
+    </channel>
+</rss>

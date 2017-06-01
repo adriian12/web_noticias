@@ -2,15 +2,14 @@
 <head>
     <title>Mallorca News</title>
     <meta charset="UTF-8">
-    <meta propiedad="og: url" content="https://rawgit.com/adriian12/web_noticias/master/index.html" />
-    <meta propiedad="og: tipo" contento="News with scroll" />
-    <meta propiedad="og: título de" content="Mallorca News" />
-    <meta property="og:image" content="img/logos/logo01.png">
+    <meta propiedad="og:url" content="https://rawgit.com/adriian12/web_noticias/master/index.html" />
+    <meta propiedad="og:type" contento="News with scroll" />
+    <meta propiedad="og:title" content="Mallorca News" />
+    <meta property="og:image" content="ºimg/logos/logo01.png">
     <meta property="og:description" content="Las mejores notícias de Mallorca y del mundo, en una sola web!">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-   
 </head>
     <body>
         <header>
@@ -35,10 +34,10 @@
                     <p>Disfruta de las noticias más raras y curiosas de Mallorca.</p>
                 </div>
 
-                <a class="tablink" onclick="openTab('inicio', this, ' #f9f4a6')" id="active">Inicio</a>
-                <a class="tablink" onclick="openTab('deportes', this, 'green')">Deportes</a>
-                <a class="tablink" onclick="openTab('politica', this, 'blue')">Política</a>
-                <a id="target" class="tablink" onclick="openTab('otros', this, 'orange')">Otros</a> 
+                <a class="tablink" href="index.html" onclick="openTab('inicio', this, ' #f9f4a6')" id="active">Inicio</a>
+                <a class="tablink" href="news1.html" onclick="openTab('deportes', this, 'green')">Deportes</a>
+                <a class="tablink" href="news2.html" onclick="openTab('politica', this, 'blue')">Política</a>
+                <a class="tablink" href="index.html" onclick="openTab('otros', this, 'orange')">Otros</a> 
             </div>
         </header>
         <div class="text-center publicidad">
@@ -53,7 +52,7 @@
             <section>
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 noticias">
                     <div class="card">
-                        <a href="#">
+                        <a href="news1.html">
                             <img class="img-fluid img-responsive imagen" src="img/noticias/hipster.jpg" alt="imagen noticia">
                             <h2>Top empresas más grandes.</h2>
                         </a>
@@ -87,7 +86,7 @@
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 noticias">
                     <div class="card">
-                            <a href="#">
+                            <a href="news2.html">
                                 <img class="img-fluid img-responsive imagen" src="img/noticias/avion.jpg" alt="imagen noticia">
                                 <h2>Piloto se duerme en vuelo.</h2>
                             </a>
@@ -103,7 +102,7 @@
                             </p>
                             <div id="texto02" class="collapse">
                                 <p> El piloto comercial Amir Akhtar Hashmi ha sido despedido después de que se descubriese que había dormido una siesta durante todo un vuelo en el que él era el comandante.
-                                    Amir había dejado a su aprendiz al mando de los controles de una aeronave que transportaba a más de 300 pasajeros.<br>
+                                    Amir había dejado a su aprendiz al mando de los controles de una aeronave que transportaba a más de 300 pasajeros.
                                 </p>
                             </div>
                         </div>
@@ -116,7 +115,7 @@
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 noticias">
                     <div class="card">
-                        <a href="#">
+                        <a href="news1.html">
                             <img class="img-fluid img-responsive imagen" src="img/noticias/boda.jpg" alt="imagen noticia">
                             <h2>La SGAE cobrará en bodas.</h2>
                         </a>
@@ -131,7 +130,7 @@
                                 El magistrado considera que las bodas que se celebran en un salón de banquetes que no representan un acto muy estrictamente privado. 
                             </p>
                             <div id="texto03" class="collapse">
-                                <p> Fuentes del Palacio de Justicia explicaron que la SGAE ha comenzado a pedir una media de 600 euros por banquete. 
+                                <p> Fuentes del Palacio de Justicia explicaron que la SGAE ha comenzado a pedir una media de   600 euros por banquete. 
                                     La autorización del juez es aplicable a los convites de bautizos y comuniones.
                                     Para averiguar qué ocurría en el salón, la SGAE envió a una detective que se hizo pasar por alguien interesado en celebrar allí una boda.
                                 </p>
@@ -176,21 +175,6 @@
         <a class="go-top" href="#">
             <img src="img/backgrounds/arriba.png" alt="Ir arriba">
         </a>
-        <script>
-           function openTab(tabName, elmnt, color) {
-    var i, tabcontent, tablinks;
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-    }
-    tablinks = document.getElementsByClassName("tablink");
-    for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].style.backgroundColor = "";
-    }
-    document.getElementById(tabName).style.display = "block";
-    elmnt.style.backgroundColor = color;
-}
-document.getElementById("active").click();
-        </script>
+        <script src="js/noticias.js"></script>
     </body>
 </html>
