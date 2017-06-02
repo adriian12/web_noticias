@@ -242,7 +242,17 @@ font-family: 'Open Sans', sans-serif;
         z-index: 1;
     }
 }
-
+@media (max-width: 405px){
+    .noticias h2{
+        text-decoration: none;
+        color: #fff;
+        font-style: bold;
+        margin-left: 15px;
+        margin-top: -75px;
+        position: relative;
+        z-index: 1;
+    }
+}
 
 .news{
     height: 550px !important;
