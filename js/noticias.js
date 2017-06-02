@@ -1,5 +1,9 @@
+
 //------------------Volver arriba---------------------------
+
+
 jQuery(document).ready(function() {
+    var i = 0;
     var offset = 220;
     var duration = 500;
     jQuery(window).scroll(function() {
@@ -15,6 +19,7 @@ jQuery(document).ready(function() {
         jQuery('html, body').animate({scrollTop: 0}, duration);
         return false;
     })
+   
 });
 
 $(function() {
@@ -30,7 +35,7 @@ $(function() {
         cargarJSON(i + 2);
         i = 3;
     });
-    $(document).scroll(function() {
+    $(window).scroll(function() {
         if (($(window).scrollTop() + $(window).height() > $(document).height() - 10) && (i < 2)) {
             cargarJSON(i + 1);
             i++;
@@ -40,9 +45,12 @@ $(function() {
 
 function ponerNoticias(json) {
     $.each(json, function(j, objeto) {
-        $('#noticia').append('<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 noticias"' + 
+        $('#noticia').append(
+            '<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 noticias"' + 
             '<div class="card">' +
-            '<a href="#">' + objeto.img +
+            '<div class="card">' +
+            '<a href="#">' + 
+            '<img class="img-fluid img-responsive imagen" src="' + objeto.img + '" alt="imagen noticia">'+
             '<h2>' + objeto.titulo + '.</h2>' +
             '</a>' +
             '<div class="datetime">' + 
@@ -52,17 +60,18 @@ function ponerNoticias(json) {
             '</div>' +
             '<div class="card-content">' +
             '<h3>' + objeto.titulo2 + '</h3>' +
-            '<p>' + objeto.texto + '</p>' +
-            '<div id="#' + objeto.id +  '" class="collapse">' +
-            '<p>' + objeto.texo2 + '</p>' +
-            '</div>' + 
+            '<p>' + objeto.descripcion + '</p>' +
+            '<p id="' + objeto.id + '" class="collapse">' + objeto.descripcion2 + '</p>' + 
             '</div>' +
             '<div class="card-read-more">' +
-            '<a class="btn btn-link btn-block" data-toggle="collapse" href="#' + objeto.id + '" onclick="cambiar()">' + objeto.mas + '</a>' +
+            '<a class="btn btn-link btn-block" data-toggle="collapse" href="' + objeto.id + '">' + 
+            objeto.mas + 
+            '</a>' +
             '</div>' +
-            '</div>';
+            '</div>' +
+            '</div>');
     });
-};
+}
 
 jQuery(document).ready(function() {
     var offset = 220;

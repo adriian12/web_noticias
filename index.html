@@ -9,6 +9,7 @@
     <meta property="og:description" content="Las mejores notícias de Mallorca y del mundo, en una sola web!">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -17,29 +18,29 @@
         <header>
             <div class="container-fluid">
                 <div id="inicio" class="tabcontent">
-                    <img class="logo" src="img/logos/logo01.png" alt="logo"><br>
+                    <a href="index.html"><img class="logo" src="img/logos/logo01.png" alt="logo"></a><br>
                     <p>Las noticias más importantes de Mallorca en exclusiva.</p>
                 </div>
 
                 <div id="deportes" class="tabcontent">
-                    <img class="logo" src="img/logos/logo01.png" alt="logo"><br>
+                    <a href="index.html"><img class="logo" src="img/logos/logo01.png" alt="logo"></a><br>
                     <p>Conoce todas la noticias deportivas de la isla el primero.</p>
                 </div>
 
                 <div id="politica" class="tabcontent">
-                    <img class="logo" src="img/logos/logo01.png" alt="logo"><br>
+                    <a href="index.html"><img class="logo" src="img/logos/logo01.png" alt="logo"></a><br>
                     <p>Conoce todas la noticias políticas de la isla el primero.</p>
                 </div>
 
-                <div id="otros" class="tabcontent">
-                    <img class="logo" src="img/logos/logo01.png" alt="logo"><br>
+                <div id="todas" class="tabcontent">
+                    <a href="index.html"><img class="logo" src="img/logos/logo01.png" alt="logo"></a><br>
                     <p>Disfruta de las noticias más raras y curiosas de Mallorca.</p>
                 </div>
 
-                <a class="tablink" href="index.html" onclick="openTab('inicio', this, ' #f9f4a6')" id="active">Inicio</a>
-                <a class="tablink" href="news1.html" onclick="openTab('deportes', this, 'green')">Deportes</a>
-                <a class="tablink" href="news2.html" onclick="openTab('politica', this, 'blue')">Política</a>
-                <a class="tablink" id="todas" onclick="openTab('otros', this, 'orange')">Todas</a> 
+                <a href="#"><button class="tablink" onclick="openTab('inicio', this, '#309bd1')" id="active">Inicio</button>
+                <a href="news1.html"><button class="tablink" onclick="openTab('deportes', this, '#309bd1')">Deportes</button></a>
+                <a href="news2.html"><button class="tablink" onclick="openTab('politica', this, '#309bd1')">Política</button></a>
+                <a id="todas"><button class="tablink" onclick="openTab('todas', this, '#309bd1')">Todas</button></a>
             </div>
         </header>
         <div class="text-center publicidad">
@@ -65,19 +66,19 @@
                             <h3>
                                 Otro año más recopilamos el listado.
                             </h3>
-                            <p> Con un valor de 686 mil millones de euros y con clientes en casi cualquier rincón del planeta, 
+                            <p> 
+                                Con un valor de 686 mil millones de euros y con clientes en casi cualquier rincón del planeta, 
                                 Apple, mantiene el liderato y sigue siendo la empresa más grande del mundo un año más. Muy de 
                                 cerca le sigue Alphabet, cuya principal subsidiaria es Google con 544 mil millones de euros. 
                                 En tercer lugar se sitúa otro gigante tecnológico, Microsoft. Así las tres primeras posiciones 
                                 se mantienen respecto el año 2016.
                             </p>
-                            <div id="texto01" class="collapse">
-                                <p> Por países, el dominio de Estados Unidos sigue siendo aplastante, con 53 empresas incluidas dentro 
-                                    de las 100 empresas más grandes del mundo, prácticamente la mitad de ellas tienen su origen en los 
-                                    Estados Unidos. En segundo lugar, se encuentra China con un total de 10 empresas y en tercer lugar 
-                                    Gran Bretaña con un total de 6 empresas.
-                                </p>
-                            </div>
+                            <p id="texto01" class="collapse"> 
+                                Por países, el dominio de Estados Unidos sigue siendo aplastante, con 53 empresas incluidas dentro 
+                                de las 100 empresas más grandes del mundo, prácticamente la mitad de ellas tienen su origen en los 
+                                Estados Unidos. En segundo lugar, se encuentra China con un total de 10 empresas y en tercer lugar 
+                                Gran Bretaña con un total de 6 empresas.
+                            </p>
                         </div>
                         <div class="card-read-more">
                             <a class="btn btn-link btn-block" data-toggle="collapse" href="#texto01">
@@ -99,14 +100,14 @@
                             <h3>
                                 El vuelo transportaba 300 pasajeros de Islamabad.
                             </h3>
-                            <p> En pleno vuelo uno de los pasajeros hizo una foto al piloto durmiendo en primera clase, cuando normalmente tendría que estar en la cabina. 
+                            <p> 
+                                En pleno vuelo uno de los pasajeros hizo una foto al piloto durmiendo en primera clase, cuando normalmente tendría que estar en la cabina. 
                                 El avión con 300 pasajeros salió de Pakistán con dirección a Londres. El pasajero se quejó a una de las azafatas, seguidamente hizo la foto y la subió a Internet.
                             </p>
-                            <div id="texto02" class="collapse">
-                                <p> El piloto comercial Amir Akhtar Hashmi ha sido despedido después de que se descubriese que había dormido una siesta durante todo un vuelo en el que él era el comandante.
-                                    Amir había dejado a su aprendiz al mando de los controles de una aeronave que transportaba a más de 300 pasajeros.
-                                </p>
-                            </div>
+                            <p id="texto02" class="collapse"> 
+                                El piloto comercial Amir Akhtar Hashmi ha sido despedido después de que se descubriese que había dormido una siesta durante todo un vuelo en el que él era el comandante.
+                                Amir había dejado a su aprendiz al mando de los controles de una aeronave que transportaba a más de 300 pasajeros.
+                            </p>
                         </div>
                         <div class="card-read-more">
                             <a class="btn btn-link btn-block" data-toggle="collapse" href="#texto02">
@@ -128,18 +129,18 @@
                             <h3>
                                 Un juez autoriza a la SGAE a cobrar en bodas.
                             </h3>
-                            <p> El juzgado nº 1 de Alicante ha autorizado a la SGAE (Sociedad General de Autores y Editores) a cobrar música por los todos banquetes de las bodas. 
+                            <p> 
+                                El juzgado nº 1 de Alicante ha autorizado a la SGAE (Sociedad General de Autores y Editores) a cobrar música por los todos banquetes de las bodas. 
                                 El magistrado considera que las bodas que se celebran en un salón de banquetes que no representan un acto muy estrictamente privado. 
                             </p>
-                            <div id="texto03" class="collapse">
-                                <p> Fuentes del Palacio de Justicia explicaron que la SGAE ha comenzado a pedir una media de   600 euros por banquete. 
-                                    La autorización del juez es aplicable a los convites de bautizos y comuniones.
-                                    Para averiguar qué ocurría en el salón, la SGAE envió a una detective que se hizo pasar por alguien interesado en celebrar allí una boda.
-                                </p>
-                            </div>
+                            <p id="texto03" class="collapse"> 
+                                Fuentes del Palacio de Justicia explicaron que la SGAE ha comenzado a pedir una media de   600 euros por banquete. 
+                                La autorización del juez es aplicable a los convites de bautizos y comuniones.
+                                Para averiguar qué ocurría en el salón, la SGAE envió a una detective que se hizo pasar por alguien interesado en celebrar allí una boda.
+                            </p>
                         </div>
                         <div class="card-read-more">
-                            <a class="btn btn-link btn-block" data-toggle="collapse" href="#texto03" onclick="cambiar()">
+                            <a class="btn btn-link btn-block" data-toggle="collapse" href="#texto03">
                                 Leer más
                             </a>
                         </div>
@@ -148,29 +149,39 @@
             </section>
         </div>            
         <footer>
-            <div class="container">
-                <div class="row">
+            <div class="row">
+                <div class="col-md-12">
+                        <div class="col-md-6 .col-md-offset-3">
+                             <h3> Si te a gustado la página siguenos!</h3>
+                             <ul class="social">
+                              <li class="facebook"><a href="https://www.facebook.com/noticias.mallorca/" target="_blank"><i class="fa fa-facebook fa-2x"></i></a></li>
+                              <li class="twitter"><a href="https://twitter.com/NotiMallorca" target="_blank"><i class="fa fa-twitter fa-2x"></i></a></li>
+                              <li class="youtube"><a href="https://www.youtube.com/user/SucesosMallorca" target="_blank"><i class="fa fa-youtube fa-2x"></i></a></li>
+                              <li class="github"><a href="https://github.com/adriian12" target="_blank"><i class="fa fa-github fa-2x"></i></a></li>
+                              <li class="instagram"><a href="https://www.instagram.com/discovermallorca/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a></li>
+                            </ul>
+                      </div>
                 </div>
             </div>
-                
+            <div class="copyright">
+                <div class="container">
+                    <div class="col-md-6">
+                        <p>Adrián Rojas © - 1º DAW Dual 2017</p>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="bottom_ul">
+                            <li><a href="#">mallorcanews.com</a></li>
+                            <li><a href="#">Acerca de</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Preguntas</a></li>
+                            <li><a href="#">Contacto</a></li>
+                            <li><a href="#">Site Map</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div> 
         </footer>
-        <div class="copyright">
-            <div class="container">
-                <div class="col-md-6">
-                    <p>© 2017 - Adrián Rojas 1º DAW Dual.</p>
-                </div>
-                <div class="col-md-6">
-                    <ul class="bottom_ul">
-                        <li><a href="#">mallorcanews.com</a></li>
-                        <li><a href="#">About us</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Faq's</a></li>
-                        <li><a href="#">Contact us</a></li>
-                        <li><a href="#">Site Map</a></li>
-                    </ul>
-                </div>c
-            </div>
-        </div>
+        
         <a class="go-top" href="#">
             <img src="img/backgrounds/arriba.png" alt="Ir arriba">
         </a>

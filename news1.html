@@ -9,35 +9,38 @@
     <meta property="og:description" content="Las mejores notícias de Mallorca y del mundo, en una sola web!">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
     <body>
-        <header>
+                <header>
             <div class="container-fluid">
                 <div id="inicio" class="tabcontent">
-                    <img class="logo" src="img/logos/logo01.png" alt="logo"><br>
+                    <a href="index.html"><img class="logo" src="img/logos/logo01.png" alt="logo"></a><br>
                     <p>Las noticias más importantes de Mallorca en exclusiva.</p>
                 </div>
 
                 <div id="deportes" class="tabcontent">
-                    <img class="logo" src="img/logos/logo01.png" alt="logo"><br>
+                    <a href="index.html"><img class="logo" src="img/logos/logo01.png" alt="logo"></a><br>
                     <p>Conoce todas la noticias deportivas de la isla el primero.</p>
                 </div>
 
                 <div id="politica" class="tabcontent">
-                    <img class="logo" src="img/logos/logo01.png" alt="logo"><br>
+                    <a href="index.html"><img class="logo" src="img/logos/logo01.png" alt="logo"></a><br>
                     <p>Conoce todas la noticias políticas de la isla el primero.</p>
                 </div>
 
-                <div id="otros" class="tabcontent">
-                    <img class="logo" src="img/logos/logo01.png" alt="logo"><br>
+                <div id="todas" class="tabcontent">
+                    <a href="index.html"><img class="logo" src="img/logos/logo01.png" alt="logo"></a><br>
                     <p>Disfruta de las noticias más raras y curiosas de Mallorca.</p>
                 </div>
 
-                <a class="tablink" onclick="openTab('inicio', this, ' #f9f4a6')" id="active">Inicio</a>
-                <a class="tablink" onclick="openTab('deportes', this, 'green')">Deportes</a>
-                <a class="tablink" onclick="openTab('politica', this, 'blue')">Política</a>
-                <a id="target" class="tablink" onclick="openTab('otros', this, 'orange')">Otros</a> 
+                <a href="index.html"><button class="tablink" onclick="openTab('inicio', this, '#309bd1')" id="active">Inicio</button>
+                <a href="#"><button class="tablink" onclick="openTab('deportes', this, '#309bd1')">Deportes</button></a>
+                <a href="news2.html"><button class="tablink" onclick="openTab('politica', this, '#309bd1')">Política</button></a>
+                <a id="todas"><button class="tablink" onclick="openTab('todas', this, '#309bd1')">Todas</button></a>
             </div>
         </header>
         <div class="text-center publicidad">
@@ -89,38 +92,46 @@
 								El resultado de la comparación es muy revelador. Estados Unidos, China, Alemania, Japón, Francia y Reino Unido son las entidades económicas más grandes del mundo, seguidas por Italia, Brasil y Canadá. Lo interesante llega justo después. En el grupo de cabeza se cuela décima Walmart, la mayor cadena comercial del mundo y la primera corporación por ingresos del Fortune Global 500.
 	                        </p>
 	                        <div class="embed-responsive embed-responsive-16by9">
-							    <iframe class="embed-responsive-item" src="//youtube.com/watch?v=4MDEDLdYNkU"></iframe>
-							</div>
+    						      <iframe width="560" height="315" src="https://www.youtube.com/embed/4MDEDLdYNkU?autohide=1" allowfullscreen></iframe>
+                            </div>
 	                    </div>
 					</div>
 				</div>
 			</section>
 		</div>
-
-
 	    <footer>
-	        <div class="container">
-	            <div class="row">
-	            </div>
-	        </div>   
-        </footer>
-        <div class="copyright">
-            <div class="container">
-                <div class="col-md-6">
-                    <p>© 2017 - Adrián Rojas 1º DAW Dual.</p>
-                </div>
-                <div class="col-md-6">
-                    <ul class="bottom_ul">
-                        <li><a href="#">mallorcanews.com</a></li>
-                        <li><a href="#">About us</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Faq's</a></li>
-                        <li><a href="#">Contact us</a></li>
-                        <li><a href="#">Site Map</a></li>
-                    </ul>
+            <div class="row">
+                <div class="col-md-12">
+                        <div class="col-md-6 .col-md-offset-3">
+                             <h3> Si te a gustado la página siguenos!</h3>
+                             <ul class="social">
+                              <li class="facebook"><a href="https://www.facebook.com/noticias.mallorca/"><i class="fa fa-facebook fa-2x"></i></a></li>
+                              <li class="twitter"><a href="https://twitter.com/NotiMallorca"><i class="fa fa-twitter fa-2x"></i></a></li>
+                              <li class="youtube"><a href="https://www.youtube.com/user/SucesosMallorca"><i class="fa fa-youtube fa-2x"></i></a></li>
+                              <li class="github"><a href="https://www.github.net/adriian12"><i class="fa fa-github fa-2x"></i></a></li>
+                              <li class="instagram"><a href="https://www.instagram.com/discovermallorca/"><i class="fa fa-instagram fa-2x"></i></a></li>
+                            </ul>
+                      </div>
                 </div>
             </div>
-        </div>
+            <div class="copyright">
+                <div class="container">
+                    <div class="col-md-6">
+                        <p>Adrián Rojas © - 1º DAW Dual 2017</p>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="bottom_ul">
+                            <li><a href="#">mallorcanews.com</a></li>
+                            <li><a href="#">Acerca de</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Preguntas</a></li>
+                            <li><a href="#">Contacto</a></li>
+                            <li><a href="#">Site Map</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div> 
+        </footer>
         <a class="go-top" href="#">
             <img src="img/backgrounds/arriba.png" alt="Ir arriba">
         </a>

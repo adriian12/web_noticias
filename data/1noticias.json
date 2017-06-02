@@ -1,31 +1,41 @@
-[{
-		"img": "img/noticias/img/excursion.jpg",
-		"titulo": "Excusiones a McDonald's para aprender.",
+[
+    {
+		"img": "img/noticias/excursion.jpg",
+		"titulo": "Excusion a McDonald's",
 		"titulo2": "¿Por qué la escuela pública está organizando excursiones a McDonald's?",
 		"fecha": "20/05/2017 15:44",
-		"texto": "Esta semana, una escuela de Córdoba revisaba las actividades extra escolares dentro del consejo escolar. Hablamos de un centro educativo cualquiera: su nombre no importa porque afecta a todas las escuelas de enseñanza pública del territorio español.",
-		"id": "texto04",
-		"texto2": "La reunión seguía sus cauces habituales hasta que algo rompió el protocolo: una visita a un restaurante McDonald’s como actividad extra escolar. No se iba primero a un museo y luego se pasaba por ahí. La salida escolar era única y exclusivamente una visita al McDonald's.",
+		"descripcion": "Esta semana, una escuela de Córdoba revisaba las actividades extra escolares dentro del consejo escolar. Hablamos de un centro educativo cualquiera: su nombre no importa porque afecta a todas las escuelas de enseñanza pública del territorio español.",
+		"id": "#texto04",
+		"descripcion2": "La reunión seguía sus cauces habituales hasta que algo rompió el protocolo: una visita a un restaurante McDonald’s como actividad extra escolar. No se iba primero a un museo y luego se pasaba por ahí. La salida escolar era única y exclusivamente una visita al McDonald's.",
 		"mas": "Leer más"
 	},
 	{
-		"img": "img/noticias/img/excursion.jpg",
-		"titulo": "Nadar: es con coraje y corazón.",
-		"titulo2": "Una nadadora con una sola pierna consigue clasificarse para las olimpiadas de Pekín ",
+		"img": "img/noticias/nadar.jpg",
+		"titulo": "Coraje y corazón",
+		"titulo2": "Una nadadora con una sola pierna consigueir a las olimpiadas de Pekín.",
 		"fecha": "09/04/2017 21:01",
-		"texto": "Natalie Du Toit, nadadora sudafricana de 24 años que sufrió la amputación de la pierna izquierda tras un accidente de moto en 2001, consiguió la plaza olímpica para los Juegos de Pekín al clasificarse cuarta en la prueba de 10 kilómetros de los campeonatos del mundo de aguas abiertas.Todo un ejemplo de empeño y superación.",
-		"id": "texto05",
-		"texto2": "Natalie Du Toit, nadadora sudafricana de 24 años que sufrió la amputación de la pierna izquierda tras un accidente de moto en 2001, consiguió la plaza olímpica para los Juegos de Pekín al clasificarse cuarta en la prueba de 10 kilómetros de los campeonatos del mundo de aguas abiertas",
+		"descripcion": "Natalie Du Toit, nadadora sudafricana de 24 años que sufrió la amputación de la pierna izquierda tras un accidente de moto en 2001, consiguió la plaza olímpica para los Juegos de Pekín al clasificarse cuarta en la prueba de 10 kilómetros de los campeonatos la pierna izquierda tras un accidente de moto en 2001 del mundo de aguas abiertas.Todo un ejemplo de empeño y superación.",
+		"id": "#texto05",
+		"descripcion2": "Natalie Du Toit, nadadora sudafricana de 24 años que sufrió la amputación de la pierna izquierda tras un accidente de moto en 2001, consiguió la plaza olímpica para los Juegos de Pekín al clasificarse cuarta en la prueba de 10 kilómetros de los campeonatos del mundo de aguas abiertas",
 		"mas": "Leer más"
 	},
 	{
-		"img": "img/noticias/img/excursion.jpg",
-		"titulo": "Corrupción al amanecer.",
-		"titulo2": "Sergio Martín da por cierto en 'Los desayunos' un bulo sobre el PSOE ",
+		"img": "img/noticias/desayuno.jpg",
+		"titulo": "Corrupción al amanecer",
+		"titulo2": "Sergio Martín da por cierto en 'Los desayunos' un bulo sobre el PSOE.",
 		"fecha": "01/04/2017 09:00",
-		"texto": "El periodista trató como veraz la falsa noticia sobre la baja del partido de Rodríguez Ibarra. Incluso preguntó por ello a Adriana Lastra, que no se creyó sus palabras.",
-		"id": "texto06",
-		"texto2": "Internet ha jugado una mala pasada esta mañana a Sergio Martín. El presentador de 'Los Desayunos' en TVE ha caído en la trampa y ha dado por cierta una falsa noticia sobre el PSOE que circulaba por la red.",
+		"descripcion": "El periodista trató como veraz la falsa noticia sobre la baja del partido de Rodríguez Ibarra. Incluso preguntó por ello El presentador de 'Los Desayunos' en TVE ha caído en la trampa y ha dado a Adriana Lastra, que él nunca se lo creyó sus palabras.",
+		"id": "#texto06",
+		"descripcion2": "Internet ha jugado una mala pasada esta mañana a Sergio Martín. El presentador de 'Los Desayunos' en TVE ha caído en la trampa y ha dado por cierta una falsa noticia sobre el PSOE que circulaba por la red.",
+		"mas": "Leer más"
+	},
+    	{
+		"img": "img/noticias/camellos.jpg",
+		"titulo": "Camello gigante",
+		"titulo2": "Encuentran el esqueleto de un camello de 100.000 años en Siria",
+		"fecha": "25/03/2017 19:09",
+		"descripcion": "Un grupo de investigadores suizos ha descubierto en el centro de Siria los restos de una especie de camello gigante desconocida de hace 100.000 años. Es un gran descubrimiento, una revolución en la ciencia, dijo a Reuters el profesor Jean-Marie Le Tensorer de la Universidad de Basilea.",
+		"descripcion2": "No se sabía que el dromedario estuviera presente en Oriente Próximo hace más de 100.000 años. Los hombros de los camellos estaban a tres metros de altura y medían cuatro metros, tan grandes como una jirafa o un elefante.",
 		"mas": "Leer más"
 	}
 ]

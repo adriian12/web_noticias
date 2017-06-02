@@ -1,45 +1,21 @@
-[{
-       "id": "noticias",
-       "img": "img/camellos.jpg",
-       "titulo": "",
-       "titulo2": "",
-       "fecha": "22/03/2017 11:29",
-       "texto": "",
-       "texto2": "",
-       "collapse": "collapse",
-       "url": "#"
-   },
-   {
-       "id": "noticias",
-       "img": "img/centro_comercial.jpg",
-       "titulo": "",
-       "titulo2": "",
-       "fecha": "14/03/2017 18:48",
-       "texto": "",
-       "texto2": "",
-       "collapse": "collapse",
-       "url": "#"
-   },
-   {
-       "id": "noticias",
-       "img": "img/hotel.jpg",
-       "titulo": "",
-       "titulo2": "",
-       "fecha": "10/03/2017 23:59",
-       "texto": "",
-       "texto2": "",
-       "collapse": "collapse",
-       "url": "#"
-   },
-      {
-       "id": "noticias",
-       "img": "img/viaje.jpg",
-       "titulo": "",
-       "titulo2": "",
-       "fecha": "05/03/2017 16:00",
-       "texto": "",
-       "texto2": "",
-       "collapse": "collapse",
-       "url": "#"
-   }
-]
+[
+	{
+		"img": "img/noticias/centro_comercial.jpg",
+		"titulo": "Te estan espiando",
+		"titulo2": "Cómo te espía tu centro comercial por WiFi y BlueTooth",
+		"fecha": "12/03/2017 10:22",
+		"descripcion": "Desde hace años, las técnicas de Business Intelligence, Data Mining y el algo más reciente concepto de Big Data buscan la forma de ganar dinero con toda la información que sea posible atesorar. Los centros comerciales, lugar donde trabajan grandes vendedores, saben que la información es dinero, y por eso se estudian las ofertas.",
+		"id": "#texto08",
+		"descripcion2": "los packs, la colocación de los productos, el diseño de los paneles, etcétera, basándose en todos los datos que están a su alcance y que son capaces de obtener en sus instalaciones.",
+		"mas": "Leer más"
+	},
+	{
+		"img": "img/noticias/viaje.jpg",
+		"titulo": "Viaje por sorpresa",
+		"titulo2": "Si quieres viajar a Mónaco, te decimos como hacerlo gastando lo mínimo.",
+		"fecha": "09/03/2017 23:55",
+		"descripcion": "Hay trucos y maneras de gastar menos en nuestros viajes. Son consejos aplicables a todo tipo de destinos, aunque hay que adaptarlos a las peculiaridades de nuestra travesía. Pero incluso para viajar a Mónaco, destino caro y lujoso donde los haya, nos pueden servir.",
+		"id": "#texto09",
+		"descripcion2": "Y es que si tienes como objetivo viajar por Europa desde España, Mónaco es una parada obligatoria que te recomendamos encarecidamente. Y, si te gusta como destino es sí mismo, presta atención a lo que vamos a explicar en este artículo porque seguro que hay varias cosas que te pueden ser útiles.",
+		"mas": "Leer más"
+	}]
