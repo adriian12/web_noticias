@@ -1,6 +1,7 @@
 body{
     background: url("../img/backgrounds/body_background.png");
-    margin: 0;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .container-fluid{
