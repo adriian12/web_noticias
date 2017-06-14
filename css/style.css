@@ -5,6 +5,7 @@ html{
 body{
     background: url("../img/backgrounds/body_background.png");
     margin: 0;
+    margin-right: 15px !important;
 }
 
 .container-fluid{
