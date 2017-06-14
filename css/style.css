@@ -1,7 +1,10 @@
+html{
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+}
 body{
     background: url("../img/backgrounds/body_background.png");
-    margin-left: 15px;
-    margin-right: 15px;
+    margin: 0;
 }
 
 .container-fluid{
